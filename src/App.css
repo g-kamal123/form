@@ -2,19 +2,24 @@ table{
   border-collapse: collapse;
   border: 4px solid green;
   padding: 25%;
+  margin-top: 1.5rem;
 }
 td{
   border: 1px solid black;
+  padding: 1em;
   /* border-top: 1px solid black; 
   border-left: 1px solid black;  */
+}
+table input,textarea{
+ /* min-height: 100%;
+ width: 100%; */
 }
 .data{
   color: blue;
 }
 .buttons{
-  display: flex;
-  justify-content: center;
-  width: 207%;
+  text-align: center;
+  column-span: 2;
 }
 tr{
   width: max-content;
